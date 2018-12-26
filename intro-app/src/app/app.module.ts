@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MoneyChangeComponent } from './components/money-change/money-change.component';
 import { from } from 'rxjs';
+import { UsdSymbolPipe } from './pipes/usd-symbol.pipe';
+import { ClpSymbolPipe } from './pipes/clp-symbol.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { from } from 'rxjs';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    MoneyChangeComponent
+    MoneyChangeComponent,
+    UsdSymbolPipe,
+    ClpSymbolPipe
   ],
   imports: [
     BrowserModule,
