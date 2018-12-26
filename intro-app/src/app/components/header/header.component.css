@@ -1,0 +1,12 @@
+.active{
+    margin-right: 1rem;
+    border-bottom: solid white 5px;
+  }
+
+  .sticky {
+    background:rgba(0,0,0,.50) !important;;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
